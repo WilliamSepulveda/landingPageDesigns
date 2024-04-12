@@ -40,8 +40,8 @@
     background-color:  #323332;
     width: 10vw;
     transition: 0.5s;
-    border-radius: 2vw;
-    
+    border-radius: 2vw; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
 }
 .center{
     display: flex;
