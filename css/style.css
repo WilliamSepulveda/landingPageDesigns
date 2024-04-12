@@ -17,6 +17,7 @@ body{
 }
 #sun{
     padding-bottom: 20vw;
+    width: 27vw;
 }
 #galaxy{
     width: 50vw;
@@ -123,11 +124,15 @@ body{
 #button{
    padding: 0.5vw;
    font-family: "space-mono", sans-serif;
+   text-align: center;
+   font-size: 1vw;
+   
 }
 .button{
     background-color: #ffff;
     transform: translate(-20vw,-18vw);
     border-radius: 2vw;
     display: inline-block;
+    width: 9vw;
     
 }
