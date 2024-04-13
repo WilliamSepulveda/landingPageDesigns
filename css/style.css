@@ -1,0 +1,72 @@
+@import url(variable.css);
+
+body{
+    background: var(--color-primary);
+}
+@font-face {
+    font-family: "avenir";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "avenir-cont";
+    src: url(../storage/font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+.grid-container {
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.grid-container > div {
+    margin:1vw;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    text-align: center;
+
+}
+#title{
+    font-family: "avenir", sans-serif;
+    margin: 0;
+    margin-top: 4vw;
+    font-size: 6vw;
+    
+}
+.containertext{
+    text-align: center;
+}   
+#cont{
+    font-family: "avenir-cont", sans-serif;
+    margin-top:6vw;
+    display: flex;
+    margin-left: 5vw;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+.countainerimg{
+    grid-column: 1/span2;
+}
+#imagen{
+    width:95vw;
+}
+.button{
+    font-size: 1vw;
+    color: #ffffff;
+    font-family: "avenir", sans-serif;
+    background-color: #070707;
+    display:inline-table;
+    border-radius: 1vw;
+    margin-bottom: 0vw;
+    transition: 0.5s;
+    margin-right: 28vw;
+}
+.button:hover{
+    background-color: #5c5959;
+    transition: 0.5s;
+    border-radius: 1vw; 
+    display: inline-block; 
+}
+.text{
+    width: 8vw;
+    text-align: center;
+}
