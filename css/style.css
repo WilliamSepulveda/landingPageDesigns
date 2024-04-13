@@ -1,0 +1,98 @@
+
+
+@font-face {
+    font-family: "Avenir";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "AvenirRoman";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    margin-bottom: 4vw;
+    margin-top: 4vw;
+    display: block;
+    width: 80%;
+}
+
+.img{
+    margin-top: 4vw;
+    width: 100%;
+    margin-left: 1vw;
+}
+
+#title{
+    font-family: "Avenir", sans-serif;
+    font-size: 5vw;
+    color: #040404;
+}
+
+#header{
+    font-family: "AvenirRoman", sans-serif;
+    font-size: 2vw;
+    color: #323232;
+    margin-top: 2vw;
+}
+
+.botton{
+    transition: 1s;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+    background-color: #242222;
+    width: 12vw;
+    margin-bottom: 8vw;
+}
+.botton:hover{
+    transition: 1s;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+    background-color: #cf81cc;
+    width: 12vw;
+    margin-bottom: 8vw;
+
+}
+
+#text{
+    font-family: "AvenirRoman", sans-serif;
+    text-align: center;
+    color: #fefbfb;
+    font-size: 1.6vw;
+    padding: 1vw;
+}
+
+.number1{
+    font-family: "Avenir", sans-serif;
+    font-size: 2.4vw;
+    color: #969696;
+}
+.number2{
+    margin-top: 4vw;
+    font-family: "Avenir", sans-serif;
+    font-size: 2.4vw;
+    color: #969696;
+}
+
+#content{
+    font-family: "AvenirRoman", sans-serif;
+    font-size: 1.6vw;
+    color: #323232;
+}
