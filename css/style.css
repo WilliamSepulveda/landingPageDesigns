@@ -103,7 +103,17 @@ body{
     border: 1px solid black;
     
 }
-
+.button3{
+    z-index: 1;
+    color: #5c0470;
+    width: 10vw;
+    display: inline-block;
+    left: 10vw;;
+  
+}
+#text3{
+    color: #ffffff;
+}
 
 
 
@@ -143,5 +153,5 @@ body{
 #img7{
     position: absolute;
     z-index: +1;
-    transform: translate(24vw,32vw);
+    transform: translate(19vw,25vw);
 }
