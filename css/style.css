@@ -18,11 +18,10 @@ body{
 .contenedorp{
     display: grid;
     padding: 2vw;
-    border: 1px solid black;
     grid-template-columns: repeat(2,1fr);
+    padding-bottom: 50vw;
 }
 .contenedorh1{
-    border: 1px solid black;
     grid-row: 1;
     grid-column: 1;
 }
@@ -65,7 +64,7 @@ body{
 }
 #text{
     color: #ffff;
-    font-family: "worksans", sans-serif;
+    font-family: "worksains", sans-serif;
     text-align: center;
     padding:1vw;
 }
@@ -82,47 +81,32 @@ body{
 
 #text2{
     color: #000000;
-    font-family: "worksans", sans-serif;
+    font-family: "worksains", sans-serif;
     text-align: center;
     padding:1vw;
 }
 .contenedorh2{
-    padding: 10vw;
-    border: 1px solid black;
+    padding: 2vw;
     grid-row: 2;
     grid-column: 1;
 }
 .minicontainer{
-    padding: 2vw;
+    padding: 1vw;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     border: 1px solid black;
+    border-radius: 1vw;
     gap: 1vw;
 }
-.miniitems{
-    border: 1px solid black;
-    
+
+.lorem{
+    font-family: "worksains", sans-serif;
+    font-size: 0.8vw;
 }
-.button3{
-    z-index: 1;
-    color: #5c0470;
-    width: 10vw;
-    display: inline-block;
-    left: 10vw;;
-  
-}
-#text3{
-    color: #ffffff;
-}
-
-
-
-
 
 
 .contenedorh3{
     padding: 10vw;
-    border: 1px solid black;
     grid-row: 1 / span 2;
     grid-column: 2;
     display: flex;
@@ -147,11 +131,45 @@ body{
 #img6{
     position: absolute;
     z-index: +1;
-    transform: translate(3vw, 5vw);
-    width: 5vw;
+    transform: translate(2vw, 3vw);
+    width: 4vw;
 }
 #img7{
     position: absolute;
     z-index: +1;
-    transform: translate(19vw,25vw);
+    transform: translate(18vw,25vw);
+}
+
+.parra{
+    height: 5vh;
+    z-index: 1;
+    transform: translate(13vw, 5vw);
+    font-size: 1.6vw;
+    border-radius: 0.8vw;
+    background-color: #685FD4;
+    color: #ffffff;
+    width: 13vw;
+    font-family: "worksans", sans-serif;
+    
+}
+.parra2{
+    height: 5vh;
+    z-index: 1;
+    transform: translate(-20vw, 25vw);
+    font-size: 1.6vw;
+    border-radius: 0.8vw;
+    background-color: #685FD4;
+    color: #ffffff;
+    width: 13vw;
+    font-family: "worksains", sans-serif;
+}
+.textf{
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+    text-align: center;
+}
+.textp{
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+    text-align: center;
 }
