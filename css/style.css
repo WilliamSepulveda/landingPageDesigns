@@ -7,6 +7,10 @@ body{
     margin: 0;
     box-sizing: 0;
 }
+@font-face {
+    font-family: "playfair";
+    src: url(../storage/font/playfair/PlayfairDisplay-Bold.ttf);
+}
 .contenedorp{
     display: grid;
     padding: 2vw;
@@ -14,10 +18,26 @@ body{
     grid-template-columns: repeat(2,1fr);
 }
 .contenedorh1{
-    padding: 10vw;
     border: 1px solid black;
     grid-row: 1;
     grid-column: 1;
+}
+#img1{
+    width: 10vw;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+.title{
+    font-size: 4vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    font-family: "playfair", sans-serif;
+}
+.text{
+    margin-left: 3vw;
+    font-size: 1.8vw;
+    
+    
 }
 .contenedorh2{
     padding: 10vw;
