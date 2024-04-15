@@ -11,6 +11,10 @@ body{
     font-family: "playfair";
     src: url(../storage/font/playfair/PlayfairDisplay-Bold.ttf);
 }
+@font-face {
+    font-family: "worksains";
+    src: url(../storage/font/worksains/WorkSans-Regular.ttf);
+}
 .contenedorp{
     display: grid;
     padding: 2vw;
@@ -32,12 +36,55 @@ body{
     margin-left: 3vw;
     margin-top: 2vw;
     font-family: "playfair", sans-serif;
+    
 }
-.text{
+.cont{
     margin-left: 3vw;
     font-size: 1.8vw;
-    
-    
+    font-family: "worksains", sans-serif;
+    margin-top: 1vw;
+}
+.button{
+    transition: 1s;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+    background-color: #000000;
+    width: 10vw;
+    margin-left: 2vw;
+}
+.button:hover{
+    transition: 1s;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+    background-color: #7102ad;
+    width: 10vw;
+    margin-left: 2vw;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5); 
+}
+#text{
+    color: #ffff;
+    font-family: "worksans", sans-serif;
+    text-align: center;
+    padding:1vw;
+}
+.button2{
+    transition: 1s;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 10vw;
+    margin-left: 3vw;
+    border: 1px solid black;
+}
+
+#text2{
+    color: #000000;
+    font-family: "worksans", sans-serif;
+    text-align: center;
+    padding:1vw;
 }
 .contenedorh2{
     padding: 10vw;
@@ -45,9 +92,56 @@ body{
     grid-row: 2;
     grid-column: 1;
 }
+.minicontainer{
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+    gap: 1vw;
+}
+.miniitems{
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+
+
 .contenedorh3{
     padding: 10vw;
     border: 1px solid black;
     grid-row: 1 / span 2;
     grid-column: 2;
+    display: flex;
+}
+#img2{
+    position: absolute;
+    z-index: +1;
+}
+#img3{
+    position: absolute;
+    transform: translate(-5vw, -5vw);
+    
+}
+#img4{
+    position: absolute;
+    transform: translate(15vw, 15vw);
+}
+#img5{
+    position: absolute;
+    transform: translate(-9.4vw, -8vw);
+}
+#img6{
+    position: absolute;
+    z-index: +1;
+    transform: translate(3vw, 5vw);
+    width: 5vw;
+}
+#img7{
+    position: absolute;
+    z-index: +1;
+    transform: translate(24vw,32vw);
 }
