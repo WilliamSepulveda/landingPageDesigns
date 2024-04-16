@@ -1,0 +1,90 @@
+@import url(variable.css);
+body{
+    background: var(--color-primary);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/worksans/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(../storage/font/worksans/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "medium";
+    src: url(../storage/font/worksans/WorkSans-Medium.ttf);
+}
+.contenedorp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.contendorh{
+    height: 46.1vw;
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+}
+#img1{ 
+    margin-left: 2vw;
+    margin-top: 2vw;
+    width: 35vw;
+    transform: translate(2vw,0vw);
+}
+#img2{
+    margin-left: 2vw;
+    width: 32vw;
+    z-index: +1;
+    transform: translate(2vw,-32vw);
+}
+#img3{
+    margin-top: 2vw;
+    width: 12vw;
+    transform: translate(2vw, -78vw);
+}
+#img4{
+    width: 12vw;
+    transform: translate(26vw,-61.3vw);
+}
+.contendorh1{
+    grid-row: 1;
+    grid-column: 2;
+    display: inline-block;
+    
+}
+.title{
+    font-family: "bold", sans-serif;
+    font-size: 5vw;
+    color: #ffff;
+    margin-left: 1.5vw;
+    margin-top: 1.5vw;
+}
+.text{
+    font-family: "light", sans-serif;
+    font-size: 2.2vw;
+    color: #ffff;
+    margin-left: 1.5vw;
+    margin-top: 4vw;
+}
+.button{
+
+    margin-top: 3vw;
+    margin-left: 1.5vw;
+    display: inline-block;
+    border-radius: 2vw;
+    background-color: #E5B94B;
+    width: 12vw;
+    height: 4vw;
+}
+#text{
+    font-family: "medium", sans-serif;
+    text-align: center;
+    color: #000000;
+    font-size: 1.6vw;
+    padding: 1vw;
+}
