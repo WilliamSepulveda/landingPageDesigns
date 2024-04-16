@@ -8,6 +8,14 @@
 body{
     background: var(--color-primary);
 }
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
 .contp{
     padding: 2vw;
     display: grid;
@@ -17,4 +25,49 @@ body{
 .conth{
     border: 1px solid rgb(255, 0, 0);
     padding: 2vw;
+}
+.title{
+    transition: 0.5s;
+    font-family: "bold";
+    font-size: 5vw;
+    color: #FEC3C7;
+}
+
+.title2{
+    font-family: "bold";
+    font-size: 5vw;
+    color: #9AD7F3;
+}
+.title3{
+    font-family: "bold";
+    font-size: 5vw;
+    color: #6BDFDA;
+}
+.text{
+    font-family: "regular", sans-serif;
+    color: white;
+    font-size: 2vw;
+}
+.button{
+    font-family: "regular",sans-serif;
+    margin-top: 1vw;
+    display: inline-block;
+    border-radius: 2vw;
+    background-color: #ffffff;
+    width: 12vw;
+    height: 3.5vw;
+}
+.button:hover{
+    background-color:  #FEC3C7;
+    width: 13vw;
+    transition: 0.5s;
+    border-radius: 2vw; 
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+}
+#exp{
+    margin-top: 0.5vw;
+    font-family: "regular", san;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1.6vw;
 }
