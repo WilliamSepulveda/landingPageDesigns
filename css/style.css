@@ -2,17 +2,74 @@
 body{
     background: var(--color-primary);
 }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
 .title{
+    color: #363830;
+    font-family:"bold", sans-serif;
     font-size: 6vw;
     text-align: center;
-    margin-right: 23vw;
-    margin-top: 5vw;
+    margin-right: 12vw;
+    margin-top: 4vw;
 }
 .text{
+    color: #363830;
+    font-family:"regular", sans-serif;
     text-align: left;
-    font-size: 3vw;
-    margin-left: 19vw;
+    font-size: 1.6vw;
+    margin-left: 21vw;
 }
 .button{
-    margin-left: 19vw;
+    margin-top: 1vw;
+    width: 10vw;
+    height: 3.5vw;
+    display: inline-block;
+    border-radius: 2vw;
+    background-color: #363830;
+    font-family: "regular", sans-serif;
+    margin-left: 21vw;
+}
+#parrafo{
+    margin-top: 1vw;
+    text-align: center;
+    color: #ffff;
+    font-size: 1vw;
+}
+#img1{
+    display: grid;
+    margin-left: 9vw;
+    margin-top: 2vw;
+    width: 25vw;
+}
+#img2{
+    width: 35vw;
+    top:0;
+    margin-left:58vw;
+    position: absolute;
+    float: right;
+    margin-right: 2vw;
+    z-index: -1;
+
+}
+.contenedorp{
+    border: 1px solid black;
+    padding: 2vw;
+}
+.contenedorh{
+    display: grid;
+    padding: 2vw;
+    border: 1px solid red;
+    grid-template-columns: (3,1fr);
+    
 }
