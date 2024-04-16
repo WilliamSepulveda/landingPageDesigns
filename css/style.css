@@ -1,0 +1,18 @@
+@import url(variable.css);
+body{
+    background: var(--color-primary);
+}
+.title{
+    font-size: 6vw;
+    text-align: center;
+    margin-right: 23vw;
+    margin-top: 5vw;
+}
+.text{
+    text-align: left;
+    font-size: 3vw;
+    margin-left: 19vw;
+}
+.button{
+    margin-left: 19vw;
+}
