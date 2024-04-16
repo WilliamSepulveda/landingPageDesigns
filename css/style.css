@@ -1,0 +1,20 @@
+@import url(variable.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background: var(--color-primary);
+}
+.contp{
+    padding: 2vw;
+    display: grid;
+    border: 1px solid white;
+    grid-template-columns: repeat(2,1fr);
+}
+.conth{
+    border: 1px solid rgb(255, 0, 0);
+    padding: 2vw;
+}
