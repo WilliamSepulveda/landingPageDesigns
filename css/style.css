@@ -1,5 +1,6 @@
 @import url(variable.css);
 body{
+    
     background: var(--color-primary);
 }
 *{
@@ -15,13 +16,31 @@ body{
     font-family: "regular";
     src: url(../storage/font/Poppins/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: "semibold";
+    src: url(../storage/font/Poppins/Poppins-SemiBold.ttf);
+}
+.contenedorp{
+    position: absolute;
+    display: flex;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 50vw;
+    width: 60vw;
+    margin-left: 31vw;
+    margin-top: 14vw;
+    background-color: hsla(0, 0%, 82%, 0.773);
+}
+.contenedorh{
+    padding: 1vw;
+    margin-left: 5vw;
+}
 .title{
     color: #363830;
     font-family:"bold", sans-serif;
     font-size: 6vw;
     text-align: center;
     margin-right: 12vw;
-    margin-top: 4vw;
+    margin-top: 2vw;
 }
 .text{
     color: #363830;
@@ -47,29 +66,34 @@ body{
     font-size: 1vw;
 }
 #img1{
-    display: grid;
-    margin-left: 9vw;
-    margin-top: 2vw;
+    position: absolute;
+    transform: translate(-22vw,8vw);
     width: 25vw;
 }
 #img2{
+    position: absolute;
     width: 35vw;
     top:0;
-    margin-left:58vw;
+    margin-left:27vw;
     position: absolute;
     float: right;
-    margin-right: 2vw;
+    margin-right: 20vw;
     z-index: -1;
 
 }
-.contenedorp{
-    border: 1px solid black;
-    padding: 2vw;
+
+.parra{
+    font-family: "regular",sans-serif;
+    font-size: 1vw;
+
 }
-.contenedorh{
-    display: grid;
-    padding: 2vw;
-    border: 1px solid red;
-    grid-template-columns: (3,1fr);
-    
+.number{
+    margin-bottom: 1vw;
+    font-family: "semibold", sans-serif;
+    font-size: 1.5vw;
+    color: #363830;
+}
+#linea{
+    width: 3vw;
+    margin-bottom: 1vw;
 }
