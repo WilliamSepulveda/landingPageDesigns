@@ -71,3 +71,13 @@ body{
     color: rgb(0, 0, 0);
     font-size: 1.6vw;
 }
+.containerimg{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border:  1px solid black;
+    padding: 2vw;
+}
+.containerchiquis{
+    border:  1px solid red;
+    
+}
