@@ -19,14 +19,12 @@ body{
 .contp{
     padding: 2vw;
     display: grid;
-    border: 1px solid white;
     grid-template-columns: repeat(2,1fr);
 }
-.conth{
-    border: 1px solid rgb(255, 0, 0);
-    padding: 2vw;
-}
+
 .title{
+    margin-top: 3vw;
+
     transition: 0.5s;
     font-family: "bold";
     font-size: 5vw;
@@ -72,12 +70,22 @@ body{
     font-size: 1.6vw;
 }
 .containerimg{
+ 
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    border:  1px solid black;
-    padding: 2vw;
+    margin-right: 2vw;
 }
+
 .containerchiquis{
-    border:  1px solid red;
-    
+    transition: 1s;
+    padding:0.5vw;
+}
+.containerchiquis:hover{
+    margin-top: 1vw;
+    transition: 1s;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    border-radius: 2vw;
+    width: 11vw;
+    height: 12vw;
 }
