@@ -1,0 +1,93 @@
+@import url(variable.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+    background: var(--color-primary);
+}
+.containerp{
+    display: grid;
+    height: 60vw;
+}
+#title{
+
+    font-family: "book", sans-serif;
+    margin-left: 4vw;
+    line-height: 1.2;
+    font-size: 5vw;
+}
+#text{
+    margin-top: 2vw;
+    margin-left: 4vw;
+    font-family: "roman", sans-serif;
+    line-height: 1.5;
+
+}
+.button{
+    background: black;
+    width: 8vw;
+    height: 2.5vw;
+    margin-left: 4vw;
+    margin-top: 1vw;
+    border-radius: 2vw;
+}
+#botton{
+    color: white;
+}
+#espiral{
+    margin-left: 6vw;
+    margin-top: 7vw;
+}
+#lineas{
+    display: flex;
+    transform: translate(40vw,-50vw);
+}
+#imagen1{
+    display: flex;
+
+    transform: translate(50vw,-48vw);
+}
+#imgderecha{
+    display: flex;
+
+    transform: translate(75vw,-92vw);
+}
+#imgizquierda{
+    display: flex;
+
+    transform: translate(25vw,-100vw);
+}
+#numeral{
+    display: flex;
+
+    transform: translate(42vw,-140vw);
+    width: 15vw;
+}
+#numeral2{
+    display: flex;
+
+    transform: translate(77vw,-138vw);
+    width: 15vw;
+}
+.container{
+    width: 48vw;
+    height: 10vw;
+    display: flex;
+    transform: translate(49vw,-138vw);
+}
+#retrato{
+    margin-top: 2vw;
+}
+#text2{
+    font-size: 1.7vw;
+    margin-top: 2vw;
+    margin-left: 1vw;
+    font-family: "roman",sans-serif;
+}
+.containerchiquis2 {
+    /* border: 2px solid rgb(252, 0, 0); */
+    width: 80vw;
+    text-align: left;
+}
