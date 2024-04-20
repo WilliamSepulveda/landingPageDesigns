@@ -8,22 +8,66 @@ body{
     background-color: var(--color-primary);
 }
 .containerp{
+    margin-left: 5vw;
     display: grid;
-    border: 1px solid black;
-    padding: 2vw;
     grid-template-columns: repeat(2,1fr);
 }
-.containerh{
-    border: 1px solid rgb(245, 0, 0);
-    padding: 2vw;
-   
+
+.title{
+    font-family:"book",sans-serif;
+    font-size: 60px;
+    margin-top: 5vw;
 }
-.containerh1{
-    border: 1px solid rgb(0, 245, 114);
-    padding: 2vw;
+.text{
+    margin-top: 2vw;
+    font-family: "roman",sans-serif;
+    font-size: 21px;
+    text-align: left;
+}
+.botton{
+    border-radius: 50px;
+    border: none;
+    width: 8vw;
+    height: 3vw;
+    margin-top: 2vw;
+    background-color: black;
+    color: white;
+}
+
+#imagen{
+    width: 40vw;
+    margin-left: 2vw;
 }
 .containerh2{
-    border: 2px solid rgb(241, 245, 0);
-    padding: 2vw;
+    /* border: 2px solid rgb(241, 245, 0); */
     grid-column: 1 /span 2;
+    margin-right: 5vw;
+    margin-top: 2vw;
+}
+.cont{
+    display: flex;
+    /* border: 3px solid blue; */
+    background: #252525;
+    border-radius: 2vw;
+}
+.contchiquis{
+    text-align: left;
+    margin-left: 2vw;
+    width: 50vw;
+    height: 16vw;
+    color: white;
+}
+#titulo{
+    margin-left: 1vw;
+    font-family: "book", sans-serif;
+}
+#texto{
+    
+    margin-left: 1vw;
+    margin-top: 15px;
+    font-family: "book", sans-serif;
+}
+#img{
+    margin-top: 3vw;
+    margin-left: 1vw;
 }

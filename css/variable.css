@@ -1,3 +1,15 @@
 :root{
     --color-primary: #ffffff;
 }
+@font-face {
+    font-family: "black";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Black.otf);
+}
+@font-face {
+    font-family: "book";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Book.otf);
+}
+@font-face {
+    font-family: "roman";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
+}
