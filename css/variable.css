@@ -1,0 +1,11 @@
+:root{
+    --color-primary: #ffffff;
+}
+@font-face {
+    font-family: "timesregular";
+    src: url(../storage/font/Times\ Regular.ttf);
+}
+@font-face {
+    font-family: "popinsregular";
+    src: url(../storage/font/Poppins-Regular.ttf);
+}
