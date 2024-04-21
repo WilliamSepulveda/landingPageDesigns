@@ -1,0 +1,19 @@
+@import url(variable.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+    background: var(--color-primary);
+}
+.contenedorp{
+    border: 2px solid black;
+    padding: 2vw;
+    grid-template-columns: repeat(3,1fr);
+}
+.contenedorh{
+    border: 1px solid forestgreen;
+    padding: 2vw;
+    grid-column: 3;
+}
