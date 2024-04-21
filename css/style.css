@@ -9,15 +9,15 @@ body{
 }
 .contenedorp{
     display: grid;
-    border: 2px solid black;
+    height: 62vw;
 }
 .contenedorh{
     display: grid;
-    border: 2px solid green;
-   
+    /* border: 2px solid green; */
+   height: 62vw;
 }
 .container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 30vw;
 }
 .number{
@@ -25,12 +25,13 @@ body{
     margin-top: 2vw;
     font-size: 1.6vw;
     color: #252525;
+    font-family: "popinsregular",sans-serif;
 }
 .text{
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     margin-left:2vw ;
     margin-top: 1vw;
-    font-family: "timesregular",sans-serif;
+    font-family: "popinsregular",sans-serif;
     text-transform: lowercase;
 }
 #estrella-azul{
@@ -59,12 +60,12 @@ body{
     display: grid;
     width: 20vw;
     display: grid;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     transform: translate(40vw,-121vw);
 }
 .parrafo{
     justify-content: center;
-    font-family: "timesregular",sans-serif;
+    font-family: "popinsregular",sans-serif;
     font-size: 1.2vw;
     text-align: center;
     color: #252525;
@@ -80,6 +81,7 @@ body{
     color: white;
     justify-content: center;
     font-size: 1vw;
+    font-family: "popinsregular",sans-serif;
 }
 #estrella4puntas2{
     transform: translate(68vw, -75vw);
@@ -93,7 +95,6 @@ body{
 .container2{
     display: grid;
     transform: translate(67vw,-127vw);
-    border: 2px solid black;
     width: 30vw;
     margin-top: 2vw;
     justify-content: left;
@@ -103,12 +104,14 @@ body{
     margin-top: 1vw;
     text-align: left;
     justify-content: left;
-    font-size: 1.5vw;
+    font-size: 1.4vw;
     color: #252525;
+    font-family: "popinsregular",sans-serif;
 }
 .number2{
     margin-left:1vw ;
     margin-top: 1vw;
     font-size: 2vw;
     color: #252525;
+    font-family: "popinsregular",sans-serif;
 }
