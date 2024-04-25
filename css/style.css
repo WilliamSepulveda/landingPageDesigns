@@ -1,0 +1,64 @@
+@import url(variable.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+    background: var(--color-primary);
+}
+.contenedorp {
+    display: grid;
+    border: 1px solid black;
+}
+.contendorh {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid rgb(16, 193, 42);
+}
+.contenedorh2 {
+    width: 54vw;
+    border: 1px solid rgb(223, 12, 12);
+}
+#estrella{
+   transform: translate(6vw,-16vw);
+}
+#marco{
+    transform: translatex(-3vw);
+    width: 42vw;
+    margin-top: 15vh;
+}
+.contenedorh2 p{
+    text-align: left;
+    margin-left: 3vw;
+    margin-top:3vh;
+    font-size: 1.9vw;
+    font-family: "regular";
+}
+.contenedorh2 button{
+    margin-left: 2vw;
+    margin-top: 4vh;
+    background: #333333;
+    color: white;
+    width: 9vw;
+    height: 2.5vw;
+    border-radius: 5vw;
+    border:none;
+    font-size: 1vw;
+}
+.contenedorh3 {
+    border: 5px solid rgb(223, 12, 12);
+    width: 40vw;
+
+}
+#foto{
+    position: relative;
+    width: 37vw;
+}
+.contenedorh4 {
+    border: 1px solid rgb(223, 12, 12);
+    padding: 2vw;
+   grid-column: 1 / span 2;
+
+}

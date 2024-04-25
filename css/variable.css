@@ -1,0 +1,17 @@
+:root{
+    --color-primary:#FBF4DF;
+}
+
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../storage/font/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "light";
+    src: url(../storage/font/Lato-Light.ttf);
+}
