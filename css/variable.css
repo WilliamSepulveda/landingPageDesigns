@@ -1,0 +1,15 @@
+:root{
+    --color-primary: #faf8f8;
+}
+@font-face {
+    font-family: "poppins-semibold";
+    src: url();
+}
+@font-face {
+    font-family: "avenir-roman";
+    src: url();
+}
+@font-face {
+    font-family: "poppins-regular";
+    src: url();
+}
