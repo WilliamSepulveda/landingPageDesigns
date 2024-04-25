@@ -3,13 +3,17 @@
 }
 @font-face {
     font-family: "poppins-semibold";
-    src: url();
+    src: url(../storage/font/Poppins/Poppins-SemiBold.ttf);
 }
 @font-face {
     font-family: "avenir-roman";
-    src: url();
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
 }
 @font-face {
     font-family: "poppins-regular";
-    src: url();
+    src: url(../storage/font/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "avenir-heavy";
+    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Book.otf);
 }
