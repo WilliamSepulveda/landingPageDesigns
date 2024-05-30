@@ -1,13 +1,3 @@
 :root{
-    background-image: url(../storage/img/img-principal.svg);
-    --color-secundary: rgb(10, 130, 186);
-   
-}
-@font-face {
-    font-family: "roman";
-    src: url(../storage/font/Avenir-Font/avenir_ff/AvenirLTStd-Roman.otf);
-}
-@font-face {
-    font-family: "heavy";
-    src: url(../storage/font/Avenir-Font/avenir_ff//AvenirLTStd-Book.otf);
+    background-color: #EFC356;
 }
