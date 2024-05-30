@@ -17,18 +17,19 @@
 .contenedor_contenido h1{
     font-size: 6vw;
     color: white;
-    margin-left: 2vw;
-
+    margin-left: 5vw;
+    font-family: "extrabold";
 }
 .contenedor_contenido p{
     font-size: 1.6vw;
     color: white;
     margin-top: 3vh;
-    margin-left: 2vw;
+    margin-left: 5vw;
+    font-family: "regular";
 }
 .contenedor_contenido button{
     margin-top: 5vh;
-    margin-left: 2vw;
+    margin-left: 5vw;
     border: none;
     border-radius: 10vw;
     width: 11vw;
@@ -40,33 +41,58 @@
 .cont_imagen{
     /* background: rgb(235, 247, 0); */
     width: 50vw;
+    position: relative;
 }
 .cont_imagen img{
+    position: absolute;
     width: 40vw;
     margin-left: 5vw;
     margin-top: 10vh;
 }
+#dow_paw{
+    position: absolute;
+    width: 25vw;
+    margin-left: 25vw;
+    z-index: -1;
+    transform: translate(1vw,-5vw);
+}
+#dow_paw2{
+    position: absolute;
+    width: 15vw;
+    margin-left: 30vw;
+    z-index: -1;
+    transform: translate(-65vw,20vw);
+}
 .contenedor_information{
+    margin-top: 20vh;
     display: flex;
-    background: rgb(0, 185, 247);
-    height: 16vh;
+    background:#EFEEEE;
+    height: 18vh;
     border-radius: 2vw;
     grid-column: 1 / span 2;
 }
 .item_content{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 35vw;
 }
 .item_content p{
+    position: absolute;
     font-size: 1vw;
-    margin-left: 6vw;
-    
+    margin-left: 9vw;
+    margin-top: 8vh;
+    font-size: 1.2vw;
+    font-family: "regular";
 }
 .item_content h1{
+    position: absolute;
     margin-left: 10vw;
+    margin-top: 3vh;
+    font-family: "extrabold";
+    font-size: 2vw;
 }
 .item_content img{
+    position: absolute;
+    margin-left: 2vw;
     width: 6vw;
-    margin-top: 2vh;
-    margin-left: 1vw;
+    margin-top: 4vh;
 }

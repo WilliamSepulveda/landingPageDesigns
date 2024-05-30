@@ -1,3 +1,11 @@
 :root{
     background-color: #EFC356;
 }
+@font-face {
+    font-family: "regular";
+    src: url(../storage/font/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "extrabold";
+    src: url(../storage/font/Lato/Lato-Bold.ttf);
+}
